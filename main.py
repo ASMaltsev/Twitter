@@ -1,6 +1,6 @@
 import tweepy
 import time
-import pickle
+import pickle5 as pickle
 import requests
 import logging
 from datetime import datetime
