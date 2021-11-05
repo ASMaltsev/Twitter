@@ -98,7 +98,8 @@ if __name__ == '__main__':
                 bot.send_message(chat_id=chat_id_main, text=f'NEW FRIENDS FOR {name.upper()}')
             text = ''
             for k, v in sets.items():
-                new_friends_for_person = set(current_friends[name][k]) - set(v)
+                new_friends_for_person = set(current_friends.get(name, '').get(k, '')) - set(v)
+
                 new_friends_array = []
                 if len(new_friends_for_person) > 0:
                     for i in range(0, len(new_friends_for_person), 50):
