@@ -2,9 +2,9 @@ import tweepy
 import pickle
 
 ALL_PEOPLE = {
-    'test_s': ['Cryptoyieldinfo', 'stakeandstack', 'FTMAlerts', 'YieldMonitor', 'wilburforce_', 'BBO_gmon3y',
-               'ThinkingLSD', 'PythNetwork', 'KariyaKanav', 'ngustafson21'],
-    'test_d': ['mrjasonchoi', 'PastryETH', 'santiagoroel', 'gabagooldoteth', 'darrenlautf', 'AlphaSeeker21',
+    'test_s': ['Cryptoyieldinfo', 'stakeandstack', 'FTMAlerts', 'YieldMonitor', 'BBO_gmon3y',
+               'ThinkingLSD', 'KariyaKanav', 'ngustafson21', 'amytongwu'],
+    'test_d': ['mrjasonchoi', 'PastryETH', 'santiagoroel', 'gabagooldoteth', 'darrenlautf',
                '3azima85'],
     'coinfund': ['jbrukh', 'leidina_', 'AustinBarack', 'EvanTheFeng', 'coin_christian_', 'sethginns', 'PallaviGondi',
                  'JonCampagna', 'VanessaGrellet_', 'coinfund_io', 'flexthought'],
