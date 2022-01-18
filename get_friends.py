@@ -5,7 +5,7 @@ ALL_PEOPLE = {
     'test_s': ['Cryptoyieldinfo', 'stakeandstack', 'FTMAlerts', 'YieldMonitor', 'BBO_gmon3y',
                'ThinkingLSD', 'KariyaKanav', 'ngustafson21', 'amytongwu'],
     'test_d': ['mrjasonchoi', 'PastryETH', 'santiagoroel', 'gabagooldoteth', 'darrenlautf',
-               '3azima85', 'LeveragedTrades'],
+               '3azima85', 'LeveragedTrades', '0xWangarian'],
     'coinfund': ['jbrukh', 'leidina_', 'AustinBarack', 'EvanTheFeng', 'coin_christian_', 'sethginns', 'PallaviGondi',
                  'JonCampagna', 'VanessaGrellet_', 'coinfund_io', 'flexthought'],
 
