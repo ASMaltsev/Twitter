@@ -160,11 +160,11 @@ ALL_PEOPLE = {
                      'sassal0x', 'bantg', 'hasufl']
 }
 
-twitter_open_key = 'JzmIdfXOWGnSNfPKGryj8KHkQ'
-twitter_secret_key = '1uvwjxOSnYgJwIik6oCL4nclzVIRgPzgaR4jgkbGuUfOOGwOT6'
+twitter_open_key = 'DwMsvwmYiPEqjfQUgw3WeYfzY'
+twitter_secret_key = 'VYQfjCptaPo1yH1wKvPbBoZSSHuLwK8AFD54Mx1f9phgrz3v15'
 
-twitter_token_open = '1380934730657505281-VquvHeQiG9VdXr3zzuF9nvQalmlgCf'
-twitter_token_secret = 'jgCjdNrzmHJoQnafJnBi1PGGBwSmC47nC7clnhNbUuY94'
+twitter_token_open = '1380934730657505281-plP0XrZgKLbY3imZbO0fIwhxT3nRPw'
+twitter_token_secret = 'QkmEylmPv09lzF0tIqvBWhg0wPc0aZ37c21PtvYa4yopk'
 
 
 def get_friends(people: list, api_twitter):
@@ -176,7 +176,8 @@ def get_friends(people: list, api_twitter):
             for friend in tweepy.Cursor(api_twitter.friends_ids, person).items():
                 friends.append(friend)
             dict_friends[person] = friends
-        except:
+        except Exception as e:
+            print(e)
             print(f'Error for {person}')
     return dict_friends
 
